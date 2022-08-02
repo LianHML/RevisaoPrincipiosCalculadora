@@ -6,7 +6,22 @@ namespace RevisaoPrincipiosCalculadora
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+        }
+
+        static void Soma()
+        {
+            Console.Clear();
+            Console.WriteLine("Primeiro Valor: ");
+            float primeiroValor = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("Segundo Valor: ");
+            float segundoValor = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("");
+
+            float resultado = primeiroValor + segundoValor;
+            Console.WriteLine($"O Resultado da soma é: {resultado}");
         }
     }
 }
