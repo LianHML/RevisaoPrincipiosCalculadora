@@ -40,6 +40,7 @@ namespace RevisaoPrincipiosCalculadora
         {
             Console.Clear();
             Console.WriteLine("Soma");
+            Console.WriteLine("");
             Console.WriteLine("Primeiro Valor: ");
             float primeiroValor = float.Parse(Console.ReadLine());
 
@@ -59,6 +60,7 @@ namespace RevisaoPrincipiosCalculadora
         {
             Console.Clear();
             Console.WriteLine("Subtração");
+            Console.WriteLine("");
             Console.WriteLine("Primeiro Valor: ");
             float primeiroValor = float.Parse(Console.ReadLine());
 
@@ -78,6 +80,7 @@ namespace RevisaoPrincipiosCalculadora
         {
             Console.Clear();
             Console.WriteLine("Divisão");
+            Console.WriteLine("");
             Console.WriteLine("Primeiro Valor: ");
             float primeiroValor = float.Parse(Console.ReadLine());
 
@@ -97,6 +100,7 @@ namespace RevisaoPrincipiosCalculadora
         {
             Console.Clear();
             Console.WriteLine("Multiplicação");
+            Console.WriteLine("");
             Console.WriteLine("Primeiro Valor: ");
             float primeiroValor = float.Parse(Console.ReadLine());
 
