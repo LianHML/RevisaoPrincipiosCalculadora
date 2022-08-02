@@ -19,6 +19,7 @@ namespace RevisaoPrincipiosCalculadora
             Console.WriteLine("2 - Subtração");
             Console.WriteLine("3 - Duvisão");
             Console.WriteLine("4 - Multiplicação");
+            Console.WriteLine("5 - Sair");
             Console.WriteLine("");
             Console.WriteLine("Selecione uma opção: ");
 
@@ -30,6 +31,7 @@ namespace RevisaoPrincipiosCalculadora
                 case 2: Subtracao(); break;
                 case 3: Divisao(); break;
                 case 4: Multiplicacao(); break;
+                case 5: Sair(); break;
                 default: Menu(); break;
             }
         }
@@ -108,6 +110,12 @@ namespace RevisaoPrincipiosCalculadora
 
             Console.ReadKey();
             Menu();
+        }
+
+        static void Sair()
+        {
+            Console.WriteLine("Obrigado! Até a próxima.");
+            Environment.Exit(0);
         }
 
     }
