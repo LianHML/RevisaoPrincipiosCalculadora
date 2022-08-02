@@ -6,7 +6,22 @@ namespace RevisaoPrincipiosCalculadora
     {
         static void Main(string[] args)
         {
+            Menu();
+        }
 
+        static void Menu()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Qual operação matemática deseja fazer?");
+            Console.WriteLine("");
+            Console.WriteLine("1 - Soma");
+            Console.WriteLine("2 - Subtração");
+            Console.WriteLine("3 - Duvisão");
+            Console.WriteLine("4 - Multiplicação");
+            Console.WriteLine("");
+            Console.WriteLine("Selecione uma opção: ");
+            short operacaoSelecionada = short.Parse(Console.ReadLine());
         }
 
         static void Soma()
